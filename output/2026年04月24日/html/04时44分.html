@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 44</p><p>生成时间: 2026-04-24 04:44:52</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">18</td>
+                <td class="percentage">40.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770745" target="_blank" class="news-link">美军“布什”号航母驶近中东，特朗普称他有的是时间，但伊朗“在倒计时”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424042901417800" target="_blank" class="news-link">纽曼矿业(NEM.N)：一季度实现黄金平均价格为每盎司4,900美元。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424042052576800" target="_blank" class="news-link">美国总统特朗普重申英国应该开放北海进行石油钻探。</a> [9] <font color='grey'>- 04时44分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3770672" target="_blank" class="news-link">“疯王”特朗普、“疯狂的战争”与“癫狂的市场”</a> [10] <font color='grey'>- 04时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424041756728800" target="_blank" class="news-link">美国总统特朗普：不认为伊朗冲突会持续很久。</a> [10] <font color='grey'>- 04时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424041652714800" target="_blank" class="news-link">英特尔(INTC.O)美股盘后大涨13%。</a> [13] <font color='grey'>- 04时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424041552415800" target="_blank" class="news-link">美国总统特朗普：我们不知道伊朗的领导人是谁。伊朗在拖延，我们不知道在和谁对话。</a> [14] <font color='grey'>- 04时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424041527979800" target="_blank" class="news-link">美国总统特朗普：（关于伊朗）不会使用核武器。</a> [15] <font color='grey'>- 04时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424041318496800" target="_blank" class="news-link">美国总统特朗普：核武器打击比油价200美元/桶还要糟糕。</a> [16] <font color='grey'>- 04时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424041243905800" target="_blank" class="news-link">美国总统特朗普：来自世界各地的船只都在前来美国获取石油。</a> [17] <font color='grey'>- 04时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424041219823800" target="_blank" class="news-link">美国总统特朗普：美国人会暂时多花点钱买汽油。</a> [18] <font color='grey'>- 04时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424041205103800" target="_blank" class="news-link">美国总统特朗普：伊朗正在向我们靠拢，但他们（内部）很混乱。</a> [19] <font color='grey'>- 04时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424041153892800" target="_blank" class="news-link">美国总统特朗普：我并不要求任何人给我更多时间。</a> [20] <font color='grey'>- 04时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424041051510800" target="_blank" class="news-link">美国总统特朗普：我们的舰艇已锁定并随时准备出发。</a> [21] <font color='grey'>- 04时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424040935961800" target="_blank" class="news-link">美国总统特朗普：是伊朗面临时间压力，不是我们。</a> [22] <font color='grey'>- 04时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424040916387800" target="_blank" class="news-link">美国总统特朗普：如果伊朗不想达成协议，我们就会打击剩余25%的目标。</a> [23] <font color='grey'>- 04时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424040854451800" target="_blank" class="news-link">美国总统特朗普：如果伊朗不想达成协议，我们就会用军事手段解决。</a> [24] <font color='grey'>- 04时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424040830560800" target="_blank" class="news-link">美国总统特朗普：霍尔木兹海峡将在达成协议或达成其他条件时开放。</a> [25] <font color='grey'>- 04时44分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
