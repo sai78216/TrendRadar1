@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 186</p><p>生成时间: 2026-05-07 01:43:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">17</td>
+                <td class="percentage">9.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771687" target="_blank" class="news-link">特朗普称“很可能”结束伊朗战事、威胁谈不成更强力轰炸，伊方指美媒报道失实、称还在审阅美方提案</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3771614" target="_blank" class="news-link">美伊前景未明，美股高开，半导体股走强，康宁大涨17%，油价跌幅收窄至6%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771684" target="_blank" class="news-link">警报响起！30年期美债收益率再逼5%警戒线，美股的狂欢还能维持多久？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260507011521961800" target="_blank" class="news-link">特朗普对美伊达成协议再表乐观 同时威胁轰炸</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时43分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.dw.com/zh/美伊谈判陷罗生门　德黑兰否认与特朗普对话/a-76485565" target="_blank" class="news-link">美伊谈判陷罗生门 德黑兰否认与特朗普对话</a> [7] <font color='grey'>- 01时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771614" target="_blank" class="news-link">美伊前景未明，美股高开，半导体股走强，康宁大涨17%，油价跌幅收窄至6%</a> [7] <font color='grey'>- 01时43分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/news/world/story20260324-8781142" target="_blank" class="news-link">特朗普在盟友和波斯湾国家告诫后急转弯</a> [10] <font color='grey'>- 01时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260507010132533800" target="_blank" class="news-link">美国总统特朗普：针对伊朗的军事行动取得了令人难以置信的成果。</a> [10] <font color='grey'>- 01时43分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.sbs.com.au/language/chinese/zh-hans/podcast-episode/australian-economic-insights-trump-delays-threat-to-iran/mmrm2ux2d" target="_blank" class="news-link">特朗普称推迟打击伊朗能源设施 澳洲会否重现燃油配给？</a> [12] <font color='grey'>- 01时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260507010013759800" target="_blank" class="news-link">以色列总理内塔尼亚胡：美国总统特朗普和我一致认为，伊朗最重要的目标是消除所有浓缩铀并拆除伊朗的浓缩能力。</a> [15] <font color='grey'>- 01时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260507005945174800" target="_blank" class="news-link">美国总统特朗普：（关于伊朗）正在与真心想达成协议的人打交道。</a> [16] <font color='grey'>- 01时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260507005926962800" target="_blank" class="news-link">以色列总理内塔尼亚胡：将在周三晚些时候与美国总统特朗普通话。</a> [17] <font color='grey'>- 01时43分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://china.hani.co.kr/arti/international/16659.html" target="_blank" class="news-link">特朗普：与伊朗几乎在所有争议点上达成共识……若未来5天进展顺利，冲突将告终结</a> [19] <font color='grey'>- 01时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3771675" target="_blank" class="news-link">SLR松绑有助银行承接美债，日韩东盟高能耗产业承压，4月资金回流美股但流出中国---0506宏观脱水</a> [19] <font color='grey'>- 01时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260507005847132800" target="_blank" class="news-link">美国总统特朗普：伊朗想进行谈判，我们将看看是否能与伊朗达成令我们满意的协议。</a> [19] <font color='grey'>- 01时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260507005623084800" target="_blank" class="news-link">美国总统特朗普：（关于伊朗）他们想达成协议。</a> [21] <font color='grey'>- 01时43分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.nytimes.com/world/20260324/heres-the-latest/" target="_blank" class="news-link">谈还是继续打？特朗普与伊朗说法不一</a> [26] <font color='grey'>- 01时43分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
