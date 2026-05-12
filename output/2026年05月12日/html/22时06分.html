@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 56</p><p>生成时间: 2026-05-12 22:06:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">11</td>
+                <td class="percentage">19.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3772040" target="_blank" class="news-link">美国通胀超预期，美股低开，科技股普跌，英伟达涨2%股价续创新高，美伊僵局致布油涨3%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512214840065800" target="_blank" class="news-link">特朗普称封锁致伊朗经济崩溃，断言伊朗“100%”会放弃核武器</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3772040" target="_blank" class="news-link">美国通胀超预期，美股低开，科技股普跌，美伊僵局致布油涨3%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512214708855800" target="_blank" class="news-link">美国总统特朗普：船只正驶往得州和路易斯安那州，准备装载石油。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512214618436800" target="_blank" class="news-link">金十图示：2026年05月12日（周二）美股热门股票行情一览</a> [6] <font color='grey'>- 22时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512214543328800" target="_blank" class="news-link">美国总统特朗普：必须换种方式来征收关税，效率会低一些，但我能征得更多。</a> [8] <font color='grey'>- 22时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512213621074800" target="_blank" class="news-link">美国总统特朗普：（关于伊朗）我们不必急于做任何事情。</a> [19] <font color='grey'>- 22时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512213608268800" target="_blank" class="news-link">美国总统特朗普重申伊朗不能拥有核武器。</a> [20] <font color='grey'>- 22时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512213559184800" target="_blank" class="news-link">美国总统特朗普：伊朗问题只是时间问题。</a> [21] <font color='grey'>- 22时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512213544140800" target="_blank" class="news-link">美国总统特朗普：肯·格里芬是一位了不起的商人。他缴纳了大量税款，纽约市失去他将是个坏消息。</a> [22] <font color='grey'>- 22时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512213313454800" target="_blank" class="news-link">美国上市的黄金矿业公司股票下跌，安哥拉黄金跌5.3%，西巴尼黄金下跌4%，和谐黄金、纽蒙特、金罗斯黄金跌超2%。</a> [26] <font color='grey'>- 22时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
