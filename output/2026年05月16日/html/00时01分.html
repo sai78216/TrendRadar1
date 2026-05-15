@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 187</p><p>生成时间: 2026-05-16 00:01:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">12</td>
+                <td class="percentage">6.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3772334" target="_blank" class="news-link">习近平同美国总统特朗普在中南海小范围会晤</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3772341" target="_blank" class="news-link">全球长债收益率飙升，美股走低，纳指跌2%，英伟达跌4%，白银大跌9%，黄金跌3%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3772311" target="_blank" class="news-link">特朗普Q1交易：大幅减持亚马逊、Meta和微软，买入英伟达、博通和苹果，抄底甲骨文、Adobe等软件股</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3772341" target="_blank" class="news-link">全球长债收益率飙升，美股走低，纳指跌2%，英伟达跌4%，白银大跌9%，黄金跌3%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时01分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.dw.com/zh/美伊谈判陷罗生门　德黑兰否认与特朗普对话/a-76485565" target="_blank" class="news-link">美伊谈判陷罗生门 德黑兰否认与特朗普对话</a> [7] <font color='grey'>- 00时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3772343" target="_blank" class="news-link">美国总统特朗普结束访华</a> [7] <font color='grey'>- 00时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3772383" target="_blank" class="news-link">特朗普称美伊停火系“应其他国家要求”</a> [9] <font color='grey'>- 00时01分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/news/world/story20260324-8781142" target="_blank" class="news-link">特朗普在盟友和波斯湾国家告诫后急转弯</a> [10] <font color='grey'>- 00时01分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.sbs.com.au/language/chinese/zh-hans/podcast-episode/australian-economic-insights-trump-delays-threat-to-iran/mmrm2ux2d" target="_blank" class="news-link">特朗普称推迟打击伊朗能源设施 澳洲会否重现燃油配给？</a> [12] <font color='grey'>- 00时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515230655008800" target="_blank" class="news-link">美股软件股上涨，Workday(WDAY.O)涨3.9%，Salesforce(CRM.N)涨3.5%，Adobe(ADBE.O)涨3.2%，Zscaler涨3%。</a> [15] <font color='grey'>- 00时01分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://china.hani.co.kr/arti/international/16659.html" target="_blank" class="news-link">特朗普：与伊朗几乎在所有争议点上达成共识……若未来5天进展顺利，冲突将告终结</a> [19] <font color='grey'>- 00时01分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.nytimes.com/world/20260324/heres-the-latest/" target="_blank" class="news-link">谈还是继续打？特朗普与伊朗说法不一</a> [26] <font color='grey'>- 00时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">出海 独立开发者 赚美金</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1213043" target="_blank" class="news-link">给 Shipstry 加了个外链提交追踪功能，解决独立开发者分散提交的痛点</a> [14] <font color='grey'>- 00时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
