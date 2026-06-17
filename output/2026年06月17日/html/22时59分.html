@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 130</p><p>生成时间: 2026-06-17 22:59:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">10</td>
+                <td class="percentage">7.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3774926" target="_blank" class="news-link">牛市终章序幕已启？美股散户重返股市，ETF资金流入逼近历史峰值</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260617225454989800" target="_blank" class="news-link">特朗普：与俄乌首脑会谈良好，考虑用美国导弹援乌！</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3774887" target="_blank" class="news-link">市场静待沃什首秀，美股指走高，半导体股多数上涨，SpaceX跌幅扩大至4%，油价涨1%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260617225306506800" target="_blank" class="news-link">日本首相高市早苗：在与特朗普总统的会谈中，我们确认将基于牢固的信任关系，继续在安全和经济等广泛领域推进高质量合作。</a> [6] <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3774852" target="_blank" class="news-link">悬在市场上空的“三大利空”：沃什“鹰鸽不明”，AI“武器化监管”，美股史上最大股票发行潮</a> [7] <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260617225243133800" target="_blank" class="news-link">分析师Adam Button评EIA原油库存数据：这是美国原油库存连续第三周出现大幅下降，也是有记录以来连续三周累计降幅最大的一次。难怪特朗普急着与伊朗达成协议。</a> [7] <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3774921" target="_blank" class="news-link">特朗普：同伊朗的谅解备忘录不是最终协议，“如果我不满意，我们将恢复向伊朗投掷炸弹”</a> [9] <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3774914" target="_blank" class="news-link">黄金和AI：谁在见顶？</a> [14] <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260617224338522800" target="_blank" class="news-link">意大利总理梅洛尼：我与美国总统特朗普的个人关系没有改变。</a> [19] <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-17/%E7%BE%8E%E4%BC%8A%E8%BE%BE%E6%88%90%E5%81%9C%E7%81%AB%E5%8D%8F%E8%AE%AE-%E7%89%B9%E6%9C%97%E6%99%AE%E5%AE%A3%E5%B8%83%E8%A7%A3%E9%99%A4%E6%B5%B7%E4%B8%8A%E5%B0%81%E9%94%81-19a22f" target="_blank" class="news-link">美伊达成停火协议 特朗普宣布解除海上封锁</a> [21] <font color='grey'>- 22时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
