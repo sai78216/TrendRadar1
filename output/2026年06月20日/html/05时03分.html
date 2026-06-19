@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 30</p><p>生成时间: 2026-06-20 05:03:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">15</td>
+                <td class="percentage">50.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620040803014800" target="_blank" class="news-link">美国总统特朗普透露，卡塔尔赠予的空军一号专机已经搭载了星链通信网络。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620040748526800" target="_blank" class="news-link">美国总统特朗普：我要特别致谢250名工作人员，他们不分昼夜赶工，促成这架专机正式投入使用，这当中也包含安德鲁斯联合基地的大量空军官兵。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620040416605800" target="_blank" class="news-link">美国总统特朗普：我们拥有全球顶尖的军队，拥有世上最先进的各类军机，我们也理应配备最顶级的总统专机。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620040335478800" target="_blank" class="news-link">美国总统特朗普：F-47正在建造中。已经启动了装配线。他们说这是有史以来最伟大的战斗机。我们会验证这一点。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620035934714800" target="_blank" class="news-link">美国总统特朗普：美国国防部长赫格塞思是与生俱来的斗士，他从来不知道什么叫服输，性格极为刚硬，是个发自内心热爱军队的人。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620035757098800" target="_blank" class="news-link">美国总统特朗普：我结束了8场战争，与伊朗的战争是最艰难的。</a> [6] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620035742177800" target="_blank" class="news-link">美国总统特朗普：美国国防部长赫格塞思做得很好。</a> [7] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620035555695800" target="_blank" class="news-link">美国总统特朗普：另一架旧空军一号已有约35年机龄，确实到了该更换的时候。</a> [9] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620035254537800" target="_blank" class="news-link">美国总统特朗普：与以色列关系良好。内塔尼亚胡是一位战士。</a> [10] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620035211173800" target="_blank" class="news-link">美国总统特朗普：将于7月7-8日赴土耳其参加北约峰会。</a> [11] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620035101442800" target="_blank" class="news-link">美国总统特朗普：那些船只正以前所未有的速度驶出霍尔木兹海峡。</a> [12] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620034905170800" target="_blank" class="news-link">特朗普：约700艘船正在海峡通行 伊朗必须在60天内达成协议</a> [13] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620034737404800" target="_blank" class="news-link">美国总统特朗普：霍尔木兹海峡的船只正在通行。</a> [14] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620034403878800" target="_blank" class="news-link">美国总统特朗普向美国空军军人致以问候，并发表讲话。</a> [16] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620033802432800" target="_blank" class="news-link">美国总统特朗普将开启G7峰会结束后的首次美国国内行程，前往宾州利哈伊谷的迈克卡车工厂参观。</a> [17] <font color='grey'>- 05时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
