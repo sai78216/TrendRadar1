@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 34</p><p>生成时间: 2026-07-05 06:52:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">13</td>
+                <td class="percentage">38.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260705054951202800" target="_blank" class="news-link">普京向特朗普介绍战场形势，特朗普称继续斡旋俄乌冲突</a> [6] <font color='grey'>- 06时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260705053907326800" target="_blank" class="news-link">克里姆林宫：普京在通话中邀请了特朗普访问俄罗斯。</a> [7] <font color='grey'>- 06时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260705053346224800" target="_blank" class="news-link">俄罗斯总统助理乌沙科夫：普京与特朗普的对话务实且富有建设性。</a> [8] <font color='grey'>- 06时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260705053327048800" target="_blank" class="news-link">俄罗斯总统助理乌沙科夫：美国总统特使威特科夫和特朗普女婿库什纳将继续协助和平努力，并准备访问莫斯科。</a> [9] <font color='grey'>- 06时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3776188" target="_blank" class="news-link">美股现3个月最大资金流出，而日股迎来7周最大资金流入</a> [10] <font color='grey'>- 06时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260705053232997800" target="_blank" class="news-link">俄罗斯总统助理乌沙科夫：特朗普在北约峰会前提出帮助达成乌克兰冲突的解决方案。</a> [11] <font color='grey'>- 06时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260705053141875800" target="_blank" class="news-link">俄罗斯总统助理乌沙科夫：普京对特朗普提供了关于乌克兰冲突中战场局势的准确评估。</a> [12] <font color='grey'>- 06时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260705053058868800" target="_blank" class="news-link">俄罗斯总统助理乌沙科夫：俄罗斯总统普京与美国总统特朗普于周六进行了1小时25分钟的通话。</a> [13] <font color='grey'>- 06时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260705052229258800" target="_blank" class="news-link">克里姆林宫：在普京与特朗普的通话中，双方谈及乌克兰问题。</a> [15] <font color='grey'>- 06时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260705052117522800" target="_blank" class="news-link">克里姆林宫：俄罗斯总统普京与美国总统特朗普举行了新的电话会谈，通话由美方发起，持续了1小时25分钟。普京向特朗普和美国人民祝贺美国独立日，纪念美国独立250周年。</a> [16] <font color='grey'>- 06时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260705051451738800" target="_blank" class="news-link">泽连斯基与特朗普通话 商定在北约峰会期间会谈</a> [19] <font color='grey'>- 06时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260705044719440800" target="_blank" class="news-link">一名白宫高级官员透露，特朗普今晚将发表一篇具有历史意义的演讲，回顾美国建国二百五十年来的历程，并通过美国英雄的事迹来讲述这段历史。这将是一场独一无二的演讲，与他以往发表过的任何演讲都截然不同。</a> [24] <font color='grey'>- 06时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260705043308774800" target="_blank" class="news-link">以色列消息人士：内塔尼亚胡与特朗普的会面尚未敲定相关安排。</a> [26] <font color='grey'>- 06时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
