@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 183</p><p>生成时间: 2026-07-10 00:23:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">11</td>
+                <td class="percentage">6.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3776487" target="_blank" class="news-link">美军又袭伊朗！特朗普威胁“今夜”再打、恢复海上封锁，后一度“降温”：美伊局势升级会很快平息</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3776425" target="_blank" class="news-link">特朗普&quot;开火威胁&quot;搅动全球市场，降温表态后美股跌幅收窄，芯片股力撑纳指收涨，中概股大涨</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-09/%E7%89%B9%E6%9C%97%E6%99%AE%E5%AE%A3%E5%B8%83%E7%BE%8E%E4%BC%8A%E5%81%9C%E7%81%AB%E7%BB%88%E7%BB%93-%E7%BE%8E%E5%86%9B%E8%BF%9E%E7%BB%AD%E7%A9%BA%E8%A2%AD%E4%BC%8A%E6%9C%97-8f5d09" target="_blank" class="news-link">特朗普宣布美伊停火终结 美军连续空袭伊朗</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260709234930221800" target="_blank" class="news-link">美国总统特朗普：（谈及伊朗）我们在很多方面都取得胜利。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3776523" target="_blank" class="news-link">海力士美股IPO点燃AI热情，美股高开，科技股反弹，康宁涨超8%，黄金涨超1%，原油回落</a> [7] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260709234420605800" target="_blank" class="news-link">美国总统特朗普：（谈及伊朗）我们已经赢了，尤其是在军事领域。</a> [10] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-09/%E5%8C%97%E7%BA%A6%E5%AE%89%E5%8D%A1%E6%8B%89%E5%B3%B0%E4%BC%9A%E8%81%9A%E7%84%A6%E9%98%B2%E5%8A%A1%E5%BC%80%E6%94%AF-%E7%89%B9%E6%9C%97%E6%99%AE%E6%89%B9%E8%AF%84%E8%A5%BF%E7%8F%AD%E7%89%99%E5%B9%B6%E5%A8%81%E8%83%81%E5%88%87%E6%96%AD%E8%B4%B8%E6%98%93-51d24b" target="_blank" class="news-link">北约安卡拉峰会聚焦防务开支 特朗普批评西班牙并威胁切断贸易</a> [13] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776523" target="_blank" class="news-link">海力士美股IPO点燃AI热情，美股高开，科技股反弹，康宁涨超8%，黄金涨超1%，原油回落</a> [13] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-09/%E7%BE%8E%E5%9B%BD%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E8%A3%81%E5%AE%9A%E7%89%B9%E6%9C%97%E6%99%AE%E5%87%BA%E7%94%9F%E5%85%AC%E6%B0%91%E6%9D%83%E8%A1%8C%E6%94%BF%E4%BB%A4%E8%BF%9D%E5%AE%AA-e9cf68" target="_blank" class="news-link">美国最高法院裁定特朗普出生公民权行政令违宪</a> [15] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260709233707293800" target="_blank" class="news-link">OpenAI：在与特朗普政府磋商后对GPT-5.6做出多项调整</a> [16] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-09/%E7%89%B9%E6%9C%97%E6%99%AE%E6%8E%88%E6%9D%83%E4%B9%8C%E5%85%8B%E5%85%B0%E7%94%9F%E4%BA%A7%E7%88%B1%E5%9B%BD%E8%80%85%E5%AF%BC%E5%BC%B9-a694ee" target="_blank" class="news-link">特朗普授权乌克兰生产爱国者导弹</a> [19] <font color='grey'>- 00时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
