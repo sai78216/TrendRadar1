@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 184</p><p>生成时间: 2026-07-25 01:23:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">8</td>
+                <td class="percentage">4.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777902" target="_blank" class="news-link">欧元转跌，特朗普回应欧盟针对美国科技公司的行动，宣布美国启动301调查</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260725011333281800" target="_blank" class="news-link">特朗普称欧盟“掠夺”美国企业 威胁启动301调查并征收大规模关税</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-21/%E7%99%BD%E5%AE%AB%E7%A1%AE%E8%AE%A4%E7%89%B9%E6%9C%97%E6%99%AE%E5%B0%86%E7%8E%B0%E5%9C%BA%E8%A7%82%E7%9C%8B%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B%E5%B9%B6%E9%A2%81%E5%A5%96-085f00" target="_blank" class="news-link">特朗普世界杯颁奖后滞留舞台被西班牙队裁出合照</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3777754" target="_blank" class="news-link">AI开支担忧与地缘风险夹击美股，标普创月内最大跌幅，特斯拉跌超14%，油价破百，黄金重挫</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3777828" target="_blank" class="news-link">“关税战”来最惨的1天！美股“科技龙头”Mag 7单日市值蒸发近8000亿美元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3777830" target="_blank" class="news-link">油价破百！胡塞武装开辟“红海战场”，特朗普权衡“更大规模战争”，乌克兰也来“火上浇油”</a> [6] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-21/%E7%89%B9%E6%9C%97%E6%99%AE%E7%AD%BE%E7%BD%B2%E8%A1%8C%E6%94%BF%E4%BB%A4%E6%94%B6%E7%B4%A7%E5%9B%BD%E9%98%B2%E4%BE%9B%E5%BA%94%E9%93%BE%E5%AF%B9%E5%8D%8E%E9%87%87%E8%B4%AD%E8%B1%81%E5%85%8D-030567" target="_blank" class="news-link">特朗普签署行政令收紧国防供应链对华采购豁免</a> [17] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260725004555754800" target="_blank" class="news-link">美国总统特朗普：加拿大取消邀请美国参加美加大桥开通仪式，这没有问题，毕竟加拿大正在向美国支付高额关税。但此前关于该大桥的协议，是由上一届政府谈判不力达成的，如今已不再有效。我们已经改变了协议条款，使美国现在能够获得50%的利润。</a> [17] <font color='grey'>- 01时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">出海 独立开发者 赚美金</td>
+                <td class="count">1</td>
+                <td class="percentage">0.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1229587" target="_blank" class="news-link">出海大家使用什么支付系统，之前是使用国内的 jeepay 太肿了，今天使用 go 做单体支付系统</a> [23] <font color='grey'>- 01时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
