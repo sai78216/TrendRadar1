@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 195</p><p>生成时间: 2026-08-23 00:15:28</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">12</td>
+                <td class="percentage">6.15%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3780028" target="_blank" class="news-link">达利欧：美国债务危机最快三年内到来，建议卖出债券、买入黄金和比特币</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-21/%E7%99%BD%E5%AE%AB%E7%A1%AE%E8%AE%A4%E7%89%B9%E6%9C%97%E6%99%AE%E5%B0%86%E7%8E%B0%E5%9C%BA%E8%A7%82%E7%9C%8B%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B%E5%B9%B6%E9%A2%81%E5%A5%96-085f00" target="_blank" class="news-link">特朗普世界杯颁奖后滞留舞台被西班牙队裁出合照</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3779986" target="_blank" class="news-link">美股止跌反弹，道指涨近1%，数字货币再猛涨，黄金升破4600</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3780041" target="_blank" class="news-link">贝森特没救成美债却点燃“美元贬值交易”！黄金创三个月新高，比特币单周暴涨超25%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3780047" target="_blank" class="news-link">黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959658" target="_blank" class="news-link">美债没救成却坑了美元，黄金暴涨！贝森特“偷鸡不成蚀把米”？</a> [8] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3780037" target="_blank" class="news-link">特朗普：未指示贝森特干预美国债市，经济增长将自行化解债务问题</a> [9] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-21/%E7%89%B9%E6%9C%97%E6%99%AE%E7%AD%BE%E7%BD%B2%E8%A1%8C%E6%94%BF%E4%BB%A4%E6%94%B6%E7%B4%A7%E5%9B%BD%E9%98%B2%E4%BE%9B%E5%BA%94%E9%93%BE%E5%AF%B9%E5%8D%8E%E9%87%87%E8%B4%AD%E8%B1%81%E5%85%8D-030567" target="_blank" class="news-link">特朗普签署行政令收紧国防供应链对华采购豁免</a> [17] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780047" target="_blank" class="news-link">黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元</a> [22] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780041" target="_blank" class="news-link">贝森特没救成美债却点燃“美元贬值交易”！黄金创三个月新高，比特币单周暴涨超25%</a> [25] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260822213559990800" target="_blank" class="news-link">分析师：特朗普的经济孤立计划可能招致伊朗在波斯湾各地发动打击</a> [27] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779986" target="_blank" class="news-link">美股止跌反弹，道指涨近1%，数字货币再猛涨，黄金升破4600</a> [28] <font color='grey'>- 00时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
