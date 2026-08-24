@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 49</p><p>生成时间: 2026-08-24 22:34:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">11</td>
+                <td class="percentage">22.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780174" target="_blank" class="news-link">特朗普：明年起将加拿大汽车、零部件和钢铁关税提高至50%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780114" target="_blank" class="news-link">科技股拖累全球股市，美股开盘涨跌互现，纳指跌0.4%，存储芯片、光通信股下挫，金涨油跌</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824220223252800" target="_blank" class="news-link">德国财长：债券收益率飙升是特朗普战争的结果。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3780114" target="_blank" class="news-link">科技股拖累全球股市，美股开盘涨跌互现，纳指跌0.4%，存储芯片、光通信股下挫，金涨油跌</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780166" target="_blank" class="news-link">油价飙升成美股“新威胁”！大摩预计布油将在四季度冲上100美元</a> [6] <font color='grey'>- 22时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824214340819800" target="_blank" class="news-link">金十图示：2026年08月24日（周一）美股热门股票行情一览</a> [16] <font color='grey'>- 22时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824214318165800" target="_blank" class="news-link">特朗普炮轰加拿大“占美国便宜” 明年起多类商品关税升至50%</a> [17] <font color='grey'>- 22时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824214153628800" target="_blank" class="news-link">美国总统特朗普：在美国建厂将享受零关税。</a> [18] <font color='grey'>- 22时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824214109561800" target="_blank" class="news-link">美国总统特朗普：2027年1月1日起，所有加拿大汽车、卡车（包括大型和小型）、汽车零部件和钢铁的关税将提高至50%。</a> [19] <font color='grey'>- 22时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824214024323800" target="_blank" class="news-link">美国总统特朗普：我们不需要加拿大，是他们需要我们。</a> [22] <font color='grey'>- 22时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824213941238800" target="_blank" class="news-link">美国总统特朗普将把加拿大的汽车和钢铁关税提高至50%。</a> [25] <font color='grey'>- 22时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
