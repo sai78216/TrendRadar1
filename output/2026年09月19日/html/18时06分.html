@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 148</p><p>生成时间: 2026-09-19 18:06:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">12</td>
+                <td class="percentage">8.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3782058" target="_blank" class="news-link">“三巫日”叠加10年期美债重回5%，标普、纳指艰难收涨，闪迪大涨11%，油价跌黄金涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-18/trump-bans-three-media-from-white-house-91429c" target="_blank" class="news-link">特朗普禁止CNN等三家媒体进入白宫采访</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3782114" target="_blank" class="news-link">特朗普宣布美国丹麦达成格陵兰协议，美将获该岛“永久安全控制权”</a> [7] <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3782111" target="_blank" class="news-link">5%利率悬崖边的科技牛：加息后美股走向再分散？</a> [8] <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1243128" target="_blank" class="news-link">FinDog - 写了一个可能是中文互联网最全的美股投研平台</a> [16] <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260919164302700800" target="_blank" class="news-link">以媒：特朗普预计不会在下周联合国大会期间会见内塔尼亚胡</a> [16] <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782118" target="_blank" class="news-link">加州州长签署行政令加强AI监管，评估设置AI“紧急关停开关”，批评特朗普&quot;昏昏欲睡&quot;</a> [20] <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782115" target="_blank" class="news-link">AI数据中心公司Nscale公开递交美股IPO申请，英伟达持股超5%</a> [21] <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-17/house-passes-bill-allowing-100-tariffs-on-russia-oil-buyers-b18abe" target="_blank" class="news-link">特朗普签署法案授权对俄油买家加征最高100%关税</a> [22] <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782058" target="_blank" class="news-link">“三巫日”叠加10年期美债重回5%，标普、纳指艰难收涨，闪迪大涨11%，油价跌黄金涨</a> [23] <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260919160510832800" target="_blank" class="news-link">从追涨到防守？黄金期权资金在不同区域重新分配——增强版同步发布！</a> [23] <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-16/saudi-arabia-downs-houthi-drone-5aaf74" target="_blank" class="news-link">特朗普称美伊战争接近尾声并将会晤海湾六国领导人</a> [26] <font color='grey'>- 18时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">出海 独立开发者 赚美金</td>
+                <td class="count">1</td>
+                <td class="percentage">0.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3781952" target="_blank" class="news-link">创新药出海：为什么两周后的这个窗口如此重要？</a> [19] <font color='grey'>- 18时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
