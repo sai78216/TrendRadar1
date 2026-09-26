@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 93</p><p>生成时间: 2026-09-26 23:31:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">13</td>
+                <td class="percentage">13.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782588" target="_blank" class="news-link">海外资金疯买美股！过去12个月净流入9420亿美元，创1985年以来纪录</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959926" target="_blank" class="news-link">决定美股的两股力量</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3782574" target="_blank" class="news-link">“Agent vs 美债”——谁将主导美股？</a> [7] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926223142730800" target="_blank" class="news-link">美国总统特朗普：“超级智能”（Super Intelligence），这个名字更贴切。这个名字之所以更准确，是因为“Artificial”一词往往暗示着“虚假”或“非真实”；但它（AI）并非虚假之物，而是一种极其强大的智能。</a> [7] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926222225950800" target="_blank" class="news-link">美国总统特朗普：普京和泽连斯基或许会在严冬前达成协议。</a> [9] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926222213765800" target="_blank" class="news-link">美国总统特朗普：我认为美国和古巴会达成协议，不认为需要动用军队。</a> [10] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926221314980800" target="_blank" class="news-link">特朗普称拒绝伊朗重开霍尔木兹海峡的提议</a> [11] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926215623528800" target="_blank" class="news-link">美国总统特朗普：与委内瑞拉的委内瑞拉临时总统罗德里格斯就选举问题进行了交谈。</a> [13] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926215510129800" target="_blank" class="news-link">美国总统特朗普：伊朗希望立即重新开放霍尔木兹海峡，因为他们正在遭受巨大的损失。</a> [14] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926215403542800" target="_blank" class="news-link">美国总统特朗普：我们希望向美国人开放古巴。</a> [15] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926215031185800" target="_blank" class="news-link">特朗普拒绝伊朗提出的停火协议</a> [16] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926204648068800" target="_blank" class="news-link">伊媒：特朗普又老调重弹，伊朗早已申明不寻求核武器</a> [24] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926203448374800" target="_blank" class="news-link">美国总统特朗普：白宫不应容许假新闻存在！这种情况持续太久了，对我们的国家造成了巨大的代价。</a> [28] <font color='grey'>- 23时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
