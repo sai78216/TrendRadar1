@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2026-10-10 07:45:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">15</td>
+                <td class="percentage">25.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-10-09/trump-forms-panel-probe-cook-mortgage-claims-9fd4e8" target="_blank" class="news-link">特朗普成立委员会调查美联储理事库克</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783305" target="_blank" class="news-link">才一天就改口？特朗普称“可能”中选前对伊朗采取军事行动</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261010054902743800" target="_blank" class="news-link">据华尔街日报：预测市场平台Kalshi已就其平台上涉及特朗普总统新任白宫新闻秘书人选的一系列可疑交易展开调查。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261010054038495800" target="_blank" class="news-link">特朗普：与俄罗斯的石油协议是笔大交易 我要感谢普京</a> [6] <font color='grey'>- 07时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783298" target="_blank" class="news-link">特朗普找到新“援军”：普京同意俄罗斯向全球市场释放数百万吨柴油</a> [11] <font color='grey'>- 07时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261010052512778800" target="_blank" class="news-link">特朗普宣布任命凯蒂·扎卡里亚出任白宫新闻秘书</a> [11] <font color='grey'>- 07时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783297" target="_blank" class="news-link">伊朗称击中LPG船、警告打击违规不限于霍尔木兹，特朗普标榜海峡一日通航2800万桶油</a> [12] <font color='grey'>- 07时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261010051601150800" target="_blank" class="news-link">俄罗斯总统助理乌沙科夫：美国总统特朗普欢迎俄罗斯参与伊朗问题的解决。</a> [18] <font color='grey'>- 07时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261010051551456800" target="_blank" class="news-link">俄罗斯总统助理乌沙科夫：俄罗斯总统普京告知美国总统特朗普，俄罗斯将考虑何时恢复和平谈判。</a> [19] <font color='grey'>- 07时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261010051504893800" target="_blank" class="news-link">俄罗斯总统助理乌沙科夫：俄罗斯总统普京与美国总统特朗普讨论了包括俄罗斯燃料供应在内的大规模经济倡议。</a> [20] <font color='grey'>- 07时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261010051443348800" target="_blank" class="news-link">俄罗斯总统助理乌沙科夫：美国总统特朗普在电话中热烈祝贺俄罗斯总统普京生日快乐，祝愿他成功和健康。</a> [21] <font color='grey'>- 07时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261010051125512800" target="_blank" class="news-link">特朗普谈及是否会在中期选举前对伊朗采取行动：有这个可能。</a> [22] <font color='grey'>- 07时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261010051018257800" target="_blank" class="news-link">美国总统特朗普：绝对支持对福特胡德枪手的执行进行直播。</a> [23] <font color='grey'>- 07时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261010051001362800" target="_blank" class="news-link">美国总统特朗普：对沙特阿拉伯被袭击事件感到不满。</a> [24] <font color='grey'>- 07时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261010050813128800" target="_blank" class="news-link">美国总统特朗普：刚刚听说了一些关于美国驻希腊大使的消息。</a> [25] <font color='grey'>- 07时45分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
